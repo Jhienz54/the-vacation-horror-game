@@ -8,9 +8,9 @@
 [node name="mainRoad" parent="." unique_id=476344570 instance=ExtResource("1_yqjtg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.12940645, 0, 1.1027327)
 
-[node name="porsche" parent="." unique_id=1555289752 instance=ExtResource("2_lnu2h")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.525321, 0, 56.975967)
-
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=703452593]
 transform = Transform3D(-0.17424947, 0.90247136, 0.39393216, 0.96323985, 0.07315004, 0.2584918, 0.2044653, 0.42449325, -0.8820427, -0.25086594, 29.903896, 0)
 light_energy = 0.1
+
+[node name="porsche" parent="." unique_id=93997455 instance=ExtResource("2_lnu2h")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.3216691, 0, 54.872353)

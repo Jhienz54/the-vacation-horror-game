@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjauqk0dfkcsv"
+uid="uid://dkse7i0hamsb0"
 path.s3tc="res://.godot/imported/porsche_911_model_Image_43.png-c4922398ab441a77134b3ddfd13040d6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
@@ -29,8 +29,8 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=8
-roughness/src_normal="res://assets/cars/main_car/porsche_911_model_Image_44.png"
+roughness/mode=0
+roughness/src_normal=""
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2
