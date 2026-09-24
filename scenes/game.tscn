@@ -13,5 +13,5 @@ transform = Transform3D(-0.17424947, 0.90247136, 0.39393216, 0.96323985, 0.07315
 light_energy = 0.1
 
 [node name="porsche" parent="." unique_id=93997455 instance=ExtResource("2_lnu2h")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.3216691, 0.28550768, 54.872353)
-mass = 1500.0
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.3216691, 0.4331138, 54.872353)
+HorsePower = 450.0
