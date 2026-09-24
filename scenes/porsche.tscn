@@ -1,3 +1,23 @@
 [gd_scene format=3 uid="uid://bjkud2slwktke"]
 
+[ext_resource type="PackedScene" uid="uid://be4yn6en2w2g0" path="res://assets/cars/main_car/porsche_911_model.glb" id="1_h8bpd"]
+[ext_resource type="Script" uid="uid://lbdi8cop671w" path="res://scripts/PorscheController.cs" id="2_y7y0i"]
+[ext_resource type="PackedScene" uid="uid://blyvgdo4id32m" path="res://scenes/player.tscn" id="3_8bq60"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f11aw"]
+size = Vector3(4.5530396, 1.2304688, 2.0292969)
+
 [node name="porsche" type="Node3D" unique_id=1555289752]
+
+[node name="porsche_911_model" parent="." unique_id=987698973 instance=ExtResource("1_h8bpd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1946363, 0, -0.19444919)
+
+[node name="PorscheController" type="VehicleBody3D" parent="." unique_id=1357737790]
+script = ExtResource("2_y7y0i")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PorscheController" unique_id=1880246891]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.064971924, 0.5597627, -0.23535156)
+shape = SubResource("BoxShape3D_f11aw")
+
+[node name="player" parent="." unique_id=1233079903 instance=ExtResource("3_8bq60")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.14179951, 0.139936, -0.5732043)
